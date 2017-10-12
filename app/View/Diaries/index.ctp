@@ -38,7 +38,7 @@
 						<th><?php echo $this->Paginator->sort('id'); ?></th>
 						<th><?php echo $this->Paginator->sort('date'); ?></th>
 						<th><?php echo $this->Paginator->sort('city_time'); ?></th>
-						<th><?php echo $this->Paginator->sort('enabled'); ?></th>
+						<th><?php echo $this->Paginator->sort('status'); ?></th>
 						<th><?php echo $this->Paginator->sort('car_id'); ?></th>
 						<th><?php echo $this->Paginator->sort('user_id'); ?></th>
 						<th class="actions"></th>
@@ -50,7 +50,7 @@
 						<td><?php echo h($diary['Diary']['id']); ?>&nbsp;</td>
 						<td><?php echo h($diary['Diary']['date']); ?>&nbsp;</td>
 						<td><?php echo h($diary['Diary']['city_time']); ?>&nbsp;</td>
-						<td><?php echo h($diary['Diary']['enabled']); ?>&nbsp;</td>
+						<td><?php echo h($diary['Diary']['status']); ?>&nbsp;</td>
 								<td>
 			<?php echo $this->Html->link($diary['Car']['id'], array('controller' => 'cars', 'action' => 'view', $diary['Car']['id'])); ?>
 		</td>

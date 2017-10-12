@@ -44,7 +44,7 @@
 					<?php echo $this->Form->input('city_time', array('class' => 'form-control', 'placeholder' => 'City Time'));?>
 				</div>
 				<div class="form-group">
-					<?php echo $this->Form->input('enabled', array('class' => 'form-control', 'placeholder' => 'Enabled'));?>
+					<?php echo $this->Form->input('status', array('class' => 'form-control', 'placeholder' => 'Status'));?>
 				</div>
 				<div class="form-group">
 					<?php echo $this->Form->input('car_id', array('class' => 'form-control', 'placeholder' => 'Car Id'));?>

@@ -56,9 +56,9 @@
 		</td>
 </tr>
 <tr>
-		<th><?php echo __('Enabled'); ?></th>
+		<th><?php echo __('Status'); ?></th>
 		<td>
-			<?php echo h($diary['Diary']['enabled']); ?>
+			<?php echo h($diary['Diary']['status']); ?>
 			&nbsp;
 		</td>
 </tr>
